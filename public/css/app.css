@@ -17284,4 +17284,80 @@ section:nth-of-type(5) div button {
   text-align: center;
   margin: 0 auto;
   margin-top: 3%;
+  text-transform: uppercase;
+  color: #f2745f;
+  font-weight: bold;
+}
+
+section:nth-of-type(6) .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section:nth-of-type(6) .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section:nth-of-type(6) .image .card-photo {
+  background-color: #EAF0FF;
+  width: 23%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1%;
+}
+
+section:nth-of-type(6) .image .card-photo h3 {
+  font-family: spectral;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-bottom: solid black 1px;
+}
+
+section:nth-of-type(6) .image .card-photo .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7%;
+  margin-right: 0;
+}
+
+section:nth-of-type(6) .image .card-photo .card .card-price {
+  position: relative;
+}
+
+section:nth-of-type(6) .image .card-photo .card .card-price span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #f2745f;
+  padding: 2%;
+  font-weight: bold;
+}
+
+section:nth-of-type(6) .image .card-photo .card .card-body h4 {
+  font-family: spectral;
+  font-weight: bold;
+  text-transform: capitalize;
 }
